@@ -48,11 +48,13 @@ The following packages are required for running the code:
 In `rev_speech_gen`, update the variable `clean_speech_dir` to store the directory in which the clean speech files can be found.  
 This must be done for the training-validation-test if-else.  
 You can subsequently run the file from the command line, for example:
-`python rev_speech_gen.py --split train --dataset BIUREV`
+```
+python rev_speech_gen.py --split train --dataset BIUREV
+```
 
 ## Citation
 If you use this code/datasets for your research paper, please kindly cite:
-
+```
 @INPROCEEDINGS{dss_dereverb,  
   author={Yochai Yemini, Ethan Fetaya, Haggai Marron and Sharon Gannot},  
   booktitle={Proc. of INTERSPEECH},  
@@ -62,3 +64,4 @@ If you use this code/datasets for your research paper, please kindly cite:
   number={},  
   pages={},  
 }
+```
