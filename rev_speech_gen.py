@@ -141,7 +141,7 @@ if __name__ == '__main__':
         clean_speech_dir = pathlib.Path(
             '/mnt/dsi_vol1/users/yochai_yemini/REVERB/SimData/REVERB_WSJCAM0_et/data/cln_test/')
 
-        # scenes = generate_rev_speech(args, 'near', clean_speech_dir, save_rev_speech_dir)
+        scenes = generate_rev_speech(args, 'near', clean_speech_dir, save_rev_speech_dir)
         # write_scene_to_file(scenes, 'test_near.txt')
 
         scenes = generate_rev_speech(args, 'far', clean_speech_dir, save_rev_speech_dir)
