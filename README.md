@@ -51,7 +51,7 @@ You can subsequently run the file from the command line, for example:
 `python rev_speech_gen.py --split train --dataset BIUREV`
 
 ## Citation
-If you wish to use this code/datasets for your research paper, please kindly cite:
+If you use this code/datasets for your research paper, please kindly cite:
 
 @INPROCEEDINGS{dss_dereverb,  
   author={Yochai Yemini, Ethan Fetaya, Haggai Marron and Sharon Gannot},  
